@@ -2,10 +2,6 @@
 - hosts: all
   become: yes
   tasks:
-   - name: i want to install webserver on aws linux
-     apt:
-      name: httpd
-      state: present 
    - name: i want to install webserver on ubuntu
      apt:
       name: apache2
