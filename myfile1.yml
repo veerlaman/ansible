@@ -10,7 +10,7 @@
 
   - name: copy index.hmtl into file int nodes side
     copy: 
-     ser: 
+     ser: index.html
      dest: /var/www/html/index.html
 
  
