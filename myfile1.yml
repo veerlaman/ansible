@@ -10,7 +10,12 @@
 
   - name: copy index.hmtl into file int nodes side
     copy: 
-     ser: index.html
+     src: index.html
+     dest: /var/www/html/index.html
+
+  - name: copy myindex.j2 file into node side
+    template:
+     src: myindex.j2
      dest: /var/www/html/index.html
 
  
