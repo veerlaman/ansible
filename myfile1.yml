@@ -20,8 +20,8 @@
 
   - name: i want to download files from internet
     get_url:
-     url: http://example.com/path/file.conf
-     dest: /etc/foo.conf
+     url: https://get.jenkins.io/war-stable/2.332.3/jenkins.war
+     dest: /home/ubuntu/jenkins.war
      force_basic_auth: yes
 
  
